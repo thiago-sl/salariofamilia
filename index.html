@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salario familia </title>
+    <link rel="stylesheet" href="estylos/index.css">
+</head>
+<body>
+    <main>
+        <div id="banner">
+ <img src="imagens/salario-familia.jpg">
+        </div>
+
+
+   
+<form action="#">
+        <input type="text" id="empregado" placeholder="Empregado">
+        <hr>
+        <input type="number" id="filho" placeholder="Quantida de filhos  menores de 14 anos ou invalido ">
+        <hr>
+     <input type="number" id="salario"placeholder="salario-familia">
+     <hr>
+   
+
+    </form>
+    <table>
+        <tr>
+            <th>SALARIO-CONTRIBUIÇAO</th>
+            <th>COTA DO SALARIO FAMILIA </th>
+            
+        </tr>
+<tr>
+    <td>ate R$ 806,80</td>
+    <td>ate R$ 41,37</td>
+</tr>
+<tr>
+    <td>ate R$ Entre R$ 806,81 e R$1.212,64</td>
+    <td>ate R$ 29,16</td>
+</tr>
+
+<tr>
+    <td>mais de 1.212,64</td>
+    <td>Não há</td>
+</tr>
+
+    </table>
+    <button type="button" id="calcular" onclick="calcular()"> calcular </button>
+    
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
